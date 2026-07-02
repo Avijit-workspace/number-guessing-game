@@ -1,101 +1,83 @@
 # 🎯 Number Guessing Game (Java)
 
-A simple console-based Number Guessing Game developed in Java.
+An interactive console game built with Java where the computer picks a secret number between **1 and 100**, and the player must guess it within **5 attempts**.
 
-The computer randomly selects a number between **1 and 100**, and the player has **5 attempts** to guess it correctly.
+This project is a clean beginner-friendly example of combining **user input**, **control flow**, and **random number generation** in a real mini application.
 
----
+## ✨ Why This Project Matters
 
-## 🚀 Features
+- Demonstrates practical use of Java fundamentals in a complete program.
+- Encourages problem-solving with feedback-driven gameplay.
+- Good portfolio piece for beginners learning console app development.
 
-- Random number generation
-- Maximum of 5 attempts
-- Hint after every incorrect guess
-  - Guess Higher
-  - Guess Lower
-- Displays remaining attempts
-- Win/Lose messages
-- Play Again option
-- Console-based interface
+## 🚀 Core Features
 
----
+- Random number generated each round using `Random`
+- 5-attempt limit for balanced challenge
+- Smart hints after wrong guesses:
+  - Enter a lower number
+  - Enter a higher number
+- Attempts tracking with remaining chances display
+- Clear win and lose messages
+- Play-again flow for multiple rounds
 
-## 🛠 Technologies Used
+## 🧠 Concepts Practiced
 
-- Java
-- Scanner Class
-- Random Class
-- do-while Loop
-- if-else Statements
+- Java basics and program structure
+- Conditional logic (`if-else`)
+- Looping with `do-while`
+- User input handling with `Scanner`
+- Randomization with `Random`
+- Console UX messaging
 
----
+## 🛠 Tech Stack
+
+- Language: Java
+- Core classes: `java.util.Scanner`, `java.util.Random`
+- Execution: Command line / terminal
 
 ## 📂 Project Structure
 
-```
+```text
 NumberGuessingGame.java
 README.md
 ```
 
----
+## ▶️ Run Locally
 
-## ▶️ How to Run
-
-1. Clone the repository
-
-```bash
-git clone https://github.com/yourusername/Number-Guessing-Game.git
-```
-
-2. Compile
+1. Open terminal in this folder.
+2. Compile the source file:
 
 ```bash
 javac NumberGuessingGame.java
 ```
 
-3. Run
+3. Run the game:
 
 ```bash
 java NumberGuessingGame
 ```
 
----
+## 🧪 Example Gameplay
 
-## 📷 Sample Output
-
-```
+```text
 ----------------------------------
-Welcome to Number Guessing Game
+ Welcome to Number Guessing Game
 ----------------------------------
-
 Choose a Number between 1 and 100.
-
-Choose a Random number:
+Choose a Random number: 70
+The Guess Number is Less than 70
+Attempts Left : 4
 ```
 
----
+## 📈 Potential Improvements
 
-## 📚 Concepts Practiced
-
-- Java Basics
-- Loops
-- Conditional Statements
-- Random Number Generation
-- User Input
-- Console Application Development
-
----
-
-## 🎯 Future Improvements
-
-- Difficulty Levels
-- High Score System
-- Input Validation
-- GUI Version using Java Swing
-- Sound Effects
-
----
+- Add difficulty levels (easy/medium/hard)
+- Add input validation for non-numeric values
+- Track high score (fewest attempts)
+- Add score history across rounds
+- Build a GUI version with Java Swing or JavaFX
 
 ## 👨‍💻 Author
 
-Avijit Kundu 👨‍🦰
+**Avijit Kundu**
